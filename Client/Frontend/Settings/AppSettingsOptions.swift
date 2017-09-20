@@ -70,7 +70,7 @@ class DisconnectSetting: WithAccountSetting {
     override func onClick(_ navigationController: UINavigationController?) {
         let alertController = UIAlertController(
             title: Strings.SettingsDisconnectAlertTitle,
-            message: NSLocalizedString("Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.", comment: "Text of the 'sign out firefox account' alert"),
+            message: NSLocalizedString("Firefox will stop syncing with your account, but won't delete any of your browsing data on this device.", comment: "Text of the 'sign out firefox account' alert"),
             preferredStyle: UIAlertControllerStyle.alert)
         alertController.addAction(
             UIAlertAction(title: NSLocalizedString("Cancel", comment: "Label for Cancel button"), style: .cancel) { (action) in
